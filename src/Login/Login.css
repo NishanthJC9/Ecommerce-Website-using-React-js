@@ -1,0 +1,52 @@
+.register{
+    background-image: linear-gradient(to top left,rgb(255, 174, 0), rgb(0, 255, 225));
+    height: auto;
+    width: auto;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+input{
+    height: 35px;
+    width: 250px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input#remember{
+    box-sizing: border-box;
+    height: 15px;
+    width: 15px;
+}
+
+.back {
+    background-image: linear-gradient(to bottom right,rgb(0, 140, 255), rgb(0, 255, 89));
+  }
+
+.form{
+    transform: translate(35%,-170%);
+    background-color: rgba(240, 177, 67, 0.8);
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+input::placeholder{
+    color: black;
+    font-weight: 600;
+}
+
+.submitButton:hover{
+    transform: scale(1.1,1.1);
+}
+
+.link{
+    color: brown;
+}
+
+svg{
+    position: absolute;
+    transform: translate(50%,60%);
+}
